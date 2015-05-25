@@ -17,7 +17,7 @@ using namespace hls;
 
 
 
-#define ETH_INTERFACE_WIDTH 128
+#define ETH_INTERFACE_WIDTH 256
 
 template<int D>
 struct my_axis {

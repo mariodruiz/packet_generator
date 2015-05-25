@@ -1,0 +1,19 @@
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Running 'C:/Xilinx/Vivado_HLS/2015.1/bin/unwrapped/win64.o/vivado_hls.exe'
+            for user 'eps' on host 'cmult-33-67-225' (Windows NT_amd64 version 6.1) on Mon May 25 16:44:47 +0200 2015
+            in directory 'C:/Users/eps/Desktop/packet_generator'
+@I [HLS-10] Opening project 'C:/Users/eps/Desktop/packet_generator/pkt.prj'.
+@I [HLS-10] Opening solution 'C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1'.
+@I [SYN-201] Setting up clock 'default' with a period of 10ns.
+@I [LIC-101] Checked out feature [VIVADO_HLS]
+@I [HLS-10] Setting target device to 'xc7z020clg484-1'
+   Compiling ../../../../generator_test.cpp in debug mode
+   Compiling ../../../../packet_generator.cpp in debug mode
+   Generating csim.exe
+Son necesarias 1 transacciones de base
+Hay que enviar 1 transacciones completas y 28 bytes 
+last bytes 224
+word 0	data = 0xBC855635424D8803553E042808004500002E00000000FF11FA179D38342FC0A8	out2 0xA8C02F34389D17FA11FF000000002E000045000828043E5503884D42355685BC	keep 0xffffffff
+word 1	data = 0x01709C5BF0E2001A006AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	out2 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6A001A00E2F05B9C700100000000	keep 0x7ffffff
+@I [SIM-1] CSim done with 0 errors.
+@I [LIC-101] Checked in feature [VIVADO_HLS]

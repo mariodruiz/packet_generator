@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xD;&#xA;4&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/csim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/csim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;" projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:34:36.518+0200"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/continuos_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.413+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/num_pkt_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.388+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/inter_packet_gap_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.381+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/destination_port_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.372+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/source_port_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.364+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/ip_source_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.355+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/ip_destination_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.347+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/length_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.338+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/mac_source_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.330+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/mac_destination_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.303+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Port 'packet_generator/out_V' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:15.293+0200" type="Warning"/>
+        <logs message="@W [XFORM-503] Cannot unroll loop 'Loop-1.1' (packet_generator.cpp:107) in function 'packet_generator': cannot completely unroll a loop with a variable trip count." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:14.159+0200" type="Warning"/>
+        <logs message="@W [SYNCHK-77] The top function 'packet_generator' (packet_generator.cpp:4) has no outputs. Possible cause(s) are: (1) Output parameters are passed by value; (2) intended outputs (parameters or global variables) are never written; (3) there are infinite loops." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:13.865+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'return' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:09.530+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'continuos' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.536+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'inter_packet_gap' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.528+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'num_pkt' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.521+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'destination_port' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.515+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'source_port' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.506+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'ip_source' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.501+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'ip_destination' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.495+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'length' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.487+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'mac_source' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.477+0200" type="Warning"/>
+        <logs message="@W [HLS-41] Resource core 'AXI4LiteS' on port 'mac_destination' is deprecated. Please use the interface directive to specify the AXI interface." projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:27:07.466+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,109 @@
+
+
+================================================================
+== Vivado HLS Report for 'packet_generator'
+================================================================
+* Date:           Mon May 25 16:27:15 2015
+
+* Version:        2015.1 (Build 1215546 on Mon Apr 27 19:24:50 PM 2015)
+* Project:        pkt.prj
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |  10.00|      0.00|        1.25|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    0|    0|    1|    1|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++--------------------+-----+-----+------------+--------------------+--------------+
+|      RTL Ports     | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++--------------------+-----+-----+------------+--------------------+--------------+
+|ap_start            |  in |    1| ap_ctrl_hs |  packet_generator  | return value |
+|ap_done             | out |    1| ap_ctrl_hs |  packet_generator  | return value |
+|ap_idle             | out |    1| ap_ctrl_hs |  packet_generator  | return value |
+|ap_ready            | out |    1| ap_ctrl_hs |  packet_generator  | return value |
+|out_V               |  in |   32|   ap_none  |        out_V       |    scalar    |
+|mac_destination_V   |  in |   48|   ap_none  |  mac_destination_V |    pointer   |
+|mac_source_V        |  in |   48|   ap_none  |    mac_source_V    |    pointer   |
+|length_V            |  in |   16|   ap_none  |      length_V      |    pointer   |
+|ip_destination_V    |  in |   32|   ap_none  |  ip_destination_V  |    pointer   |
+|ip_source_V         |  in |   32|   ap_none  |     ip_source_V    |    pointer   |
+|source_port_V       |  in |   16|   ap_none  |    source_port_V   |    pointer   |
+|destination_port_V  |  in |   16|   ap_none  | destination_port_V |    pointer   |
+|inter_packet_gap_V  |  in |   32|   ap_none  | inter_packet_gap_V |    pointer   |
+|num_pkt_V           |  in |   16|   ap_none  |      num_pkt_V     |    pointer   |
+|continuos_V         |  in |    1|   ap_none  |     continuos_V    |    pointer   |
++--------------------+-----+-----+------------+--------------------+--------------+
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="packet_generator.cpp" path="C:\Users\eps\Desktop\packet_generator\packet_generator.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="generator_test.cpp" path="C:\Users\eps\Desktop\packet_generator\generator_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

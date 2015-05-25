@@ -12,7 +12,7 @@ int main(void){
 	ap_uint<16> source_port=0x9C5B;
 	ap_uint<16> destination_port=0xF0E2;
 
-	ap_uint<16> length=50;
+	ap_uint<16> length=46;
 	
 	ap_uint<16> num_pkt = 1;
 	ap_uint<1> continuos = 0;

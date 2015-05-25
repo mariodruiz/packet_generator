@@ -1,0 +1,93 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="mac_destination"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="mac_source"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="length"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="ip_destination"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="ip_source"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="source_port"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="destination_port"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="num_pkt"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="inter_packet_gap"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="continuos"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="return"/>
+<option name="core" value="AXI4LiteS"/>
+<option name="metadata" value="&quot;-bus_bundle S_AXI_LITE&quot;"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="LOOP_TRIPCOUNT">
+<option name="min" value="1"/>
+<option name="max" value="1518"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="packet_generator" label="">
+<pragma name="UNROLL"/>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>
