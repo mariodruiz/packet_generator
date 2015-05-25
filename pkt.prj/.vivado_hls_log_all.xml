@@ -7,6 +7,7 @@
       <mgLog/>
       <packageLog/>
       <csimLog>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xD;&#xA;4&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/csim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/csim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;" projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:51:18.199+0200"/>
         <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xD;&#xA;4&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/csim.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/csim.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;" projectName="pkt.prj" solutionName="solution1" date="2015-05-25T16:34:36.518+0200"/>
       </csimLog>
     </logs>

@@ -1,9 +1,13 @@
    Compiling ../../../../generator_test.cpp in debug mode
-   Compiling ../../../../packet_generator.cpp in debug mode
    Generating csim.exe
-Son necesarias 1 transacciones de base
-Hay que enviar 1 transacciones completas y 28 bytes 
-last bytes 224
-word 0	data = 0xBC855635424D8803553E042808004500002E00000000FF11FA179D38342FC0A8	out2 0xA8C02F34389D17FA11FF000000002E000045000828043E5503884D42355685BC	keep 0xffffffff
-word 1	data = 0x01709C5BF0E2001A006AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF	out2 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6A001A00E2F05B9C700100000000	keep 0x7ffffff
+mac destination 0xbc855635424d
+mac source 0x8803553e0428
+ip_source 0x9d38342f
+ip_destination 0xc0a80000
+source port 0x0
+destination port 0x0
+length 0
+num pkt 0x0
+continuos 0x0
+inter packet gap 0x0
 @I [SIM-1] CSim done with 0 errors.

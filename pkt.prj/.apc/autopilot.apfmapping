@@ -5,5 +5,6 @@
   </source>
   <testbench>
     <originFiles name="generator_test.cpp" path="C:\Users\eps\Desktop\packet_generator\generator_test.cpp"/>
+    <originFiles name="pkt_field.txt" path="C:\Users\eps\Desktop\packet_generator\pkt_field.txt"/>
   </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

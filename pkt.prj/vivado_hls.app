@@ -2,6 +2,7 @@
     <files>
         <file name="packet_generator.cpp" sc="0" tb="false" cflags=""/>
         <file name="../../generator_test.cpp" sc="0" tb="1" cflags=""/>
+        <file name="../../pkt_field.txt" sc="0" tb="1" cflags=""/>
     </files>
     <includePaths/>
     <libraryPaths/>

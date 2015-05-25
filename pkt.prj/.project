@@ -57,6 +57,11 @@
 			<location>C:/Users/eps/Desktop/packet_generator/generator_test.cpp</location>
 		</link>
 		<link>
+			<name>testbench/pkt_field.txt</name>
+			<type>1</type>
+			<location>C:/Users/eps/Desktop/packet_generator/pkt_field.txt</location>
+		</link>
+		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
 			<location>C:/Users/eps/Desktop/packet_generator/pkt.prj/solution1/solution1.directive</location>
